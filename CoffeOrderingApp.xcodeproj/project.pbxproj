@@ -11,6 +11,16 @@
 		2D4AB96D28C252AF000052C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AB96C28C252AF000052C9 /* ContentView.swift */; };
 		2D4AB96F28C252B1000052C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4AB96E28C252B1000052C9 /* Assets.xcassets */; };
 		2D4AB97228C252B1000052C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4AB97128C252B1000052C9 /* Preview Assets.xcassets */; };
+		2D4AB97A28C25338000052C9 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AB97928C25338000052C9 /* Coffee.swift */; };
+		2D4AB97C28C255D0000052C9 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AB97B28C255D0000052C9 /* Order.swift */; };
+		2D4AB97F28C256D4000052C9 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AB97E28C256D4000052C9 /* Webservice.swift */; };
+		2D4AB98328C25E3A000052C9 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AB98228C25E3A000052C9 /* OrderListViewModel.swift */; };
+		2D4AB98628C2617D000052C9 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AB98528C2617D000052C9 /* OrderListView.swift */; };
+		2D4AB98828C29636000052C9 /* CreacionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AB98728C29636000052C9 /* CreacionResponse.swift */; };
+		2D4AB98A28C297C6000052C9 /* AddCaffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AB98928C297C6000052C9 /* AddCaffeeOrderViewModel.swift */; };
+		2D4AB98C28C298C4000052C9 /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AB98B28C298C4000052C9 /* CoffeeViewModel.swift */; };
+		2D4AB98E28C29DF2000052C9 /* AddCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AB98D28C29DF2000052C9 /* AddCoffeeOrderView.swift */; };
+		2D4AB99028C2A6CC000052C9 /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AB98F28C2A6CC000052C9 /* OrderTotalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,17 @@
 		2D4AB96C28C252AF000052C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D4AB96E28C252B1000052C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D4AB97128C252B1000052C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D4AB97928C25338000052C9 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		2D4AB97B28C255D0000052C9 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2D4AB97E28C256D4000052C9 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		2D4AB98028C259B1000052C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2D4AB98228C25E3A000052C9 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		2D4AB98528C2617D000052C9 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		2D4AB98728C29636000052C9 /* CreacionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreacionResponse.swift; sourceTree = "<group>"; };
+		2D4AB98928C297C6000052C9 /* AddCaffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCaffeeOrderViewModel.swift; sourceTree = "<group>"; };
+		2D4AB98B28C298C4000052C9 /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
+		2D4AB98D28C29DF2000052C9 /* AddCoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderView.swift; sourceTree = "<group>"; };
+		2D4AB98F28C2A6CC000052C9 /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +72,12 @@
 		2D4AB96928C252AF000052C9 /* CoffeOrderingApp */ = {
 			isa = PBXGroup;
 			children = (
+				2D4AB98428C26146000052C9 /* Views */,
+				2D4AB98128C25E17000052C9 /* View Models */,
+				2D4AB98028C259B1000052C9 /* Info.plist */,
+				2D4AB97D28C25639000052C9 /* Service */,
+				2D4AB97828C25329000052C9 /* Models */,
 				2D4AB96A28C252AF000052C9 /* CoffeOrderingAppApp.swift */,
-				2D4AB96C28C252AF000052C9 /* ContentView.swift */,
 				2D4AB96E28C252B1000052C9 /* Assets.xcassets */,
 				2D4AB97028C252B1000052C9 /* Preview Content */,
 			);
@@ -65,6 +90,45 @@
 				2D4AB97128C252B1000052C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D4AB97828C25329000052C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D4AB97928C25338000052C9 /* Coffee.swift */,
+				2D4AB97B28C255D0000052C9 /* Order.swift */,
+				2D4AB98728C29636000052C9 /* CreacionResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D4AB97D28C25639000052C9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2D4AB97E28C256D4000052C9 /* Webservice.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2D4AB98128C25E17000052C9 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D4AB98228C25E3A000052C9 /* OrderListViewModel.swift */,
+				2D4AB98928C297C6000052C9 /* AddCaffeeOrderViewModel.swift */,
+				2D4AB98B28C298C4000052C9 /* CoffeeViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		2D4AB98428C26146000052C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D4AB96C28C252AF000052C9 /* ContentView.swift */,
+				2D4AB98528C2617D000052C9 /* OrderListView.swift */,
+				2D4AB98D28C29DF2000052C9 /* AddCoffeeOrderView.swift */,
+				2D4AB98F28C2A6CC000052C9 /* OrderTotalView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +202,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D4AB96D28C252AF000052C9 /* ContentView.swift in Sources */,
+				2D4AB98E28C29DF2000052C9 /* AddCoffeeOrderView.swift in Sources */,
 				2D4AB96B28C252AF000052C9 /* CoffeOrderingAppApp.swift in Sources */,
+				2D4AB98C28C298C4000052C9 /* CoffeeViewModel.swift in Sources */,
+				2D4AB98A28C297C6000052C9 /* AddCaffeeOrderViewModel.swift in Sources */,
+				2D4AB97C28C255D0000052C9 /* Order.swift in Sources */,
+				2D4AB98628C2617D000052C9 /* OrderListView.swift in Sources */,
+				2D4AB98828C29636000052C9 /* CreacionResponse.swift in Sources */,
+				2D4AB98328C25E3A000052C9 /* OrderListViewModel.swift in Sources */,
+				2D4AB97F28C256D4000052C9 /* Webservice.swift in Sources */,
+				2D4AB99028C2A6CC000052C9 /* OrderTotalView.swift in Sources */,
+				2D4AB97A28C25338000052C9 /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +344,7 @@
 				DEVELOPMENT_TEAM = 7RT4X7Y335;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeOrderingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +374,7 @@
 				DEVELOPMENT_TEAM = 7RT4X7Y335;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeOrderingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
